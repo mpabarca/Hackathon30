@@ -13,7 +13,7 @@ class Navbar extends Component{
             <Container id="footer">
                 <Row>
                     <Col className="box-img">
-                    <Link to="/todo"><Button id="button-desafio"><Image id="navbar-desafio" src={desafio} /><p className="txt-btn">Desafio</p></Button></Link>
+                    <Link to="/desafios"><Button id="button-desafio"><Image id="navbar-desafio" src={desafio} /><p className="txt-btn">Desafio</p></Button></Link>
 
                     <Link to="/todo"><Button id="button-tareas"><Image id="navbar-tareas" src={tareas} /><p className="txt-btn">Tareas</p></Button></Link>
                     
