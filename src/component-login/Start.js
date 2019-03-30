@@ -7,13 +7,17 @@ class Start extends Component{
 
     render(){
         return(
-            <Container id="start">
-                <Row id="start-logo"><img src={logo} id="app-logo"/></Row>
-                <div id="start-button">
-                    <Row id="start-login"><Button variant="primary">Inicia Sesión</Button></Row>
-                    <Row id="start-team"><Button variant="secondary">Crear nuevo equipo</Button></Row>
-                </div>
-            </Container>
+            <div id="start">
+                <Container id="start-container">
+                    <Row ><img id="start-logo" src={logo}/></Row>
+                    <Row><h3>Partners</h3></Row>
+                    <Row><h6>¡Seamos un equipo!</h6></Row>
+                    <Container id="start-button">
+                        <Row ><Button id="start-login" variant="primary">Inicia Sesión</Button></Row>
+                        <Row ><Button id="start-team" variant="secondary">Crear nuevo equipo</Button></Row>
+                    </Container>
+                </Container>
+            </div>
 
         )
     }
