@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+#container-video{
+    margin-left: 10%;
+}
+#desafios-form{
+    width: 95%;
+    font-family: 'Quicksand', sans-serif;
+}
+#desafios-inicio{
+    color:#373A3C;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom:10%;
+    margin-top:15%;
+    font-family: 'Quicksand', sans-serif;
+}
+#desafios-sugerencia{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #858FE7;
+    margin-bottom: 5%;
+    font-family: 'Quicksand', sans-serif;
+}
+#desafios-textForm{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #373A3C;
+    font-family: 'Quicksand', sans-serif;
+}

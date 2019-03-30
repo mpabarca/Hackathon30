@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h4><Link to="/todo">Tareas</Link></h4>
+        <Desafios/>
       </div>
     )
   }
