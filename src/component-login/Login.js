@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import fire from '../components-firebase/Fire';
 import './login.css';
+import logo from '../img/logo.png';
 
 class Login extends Component{
 
@@ -10,3 +11,5 @@ class Login extends Component{
         )
     }
 }
+
+export default Login;
