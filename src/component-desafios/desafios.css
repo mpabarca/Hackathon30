@@ -2,9 +2,10 @@
 
 #container-video{
     margin-left: 10%;
+    width:90%;
 }
 #desafios-form{
-    width: 95%;
+    width: 100%;
     font-family: 'Quicksand', sans-serif;
 }
 #desafios-inicio{
@@ -16,7 +17,7 @@
     text-align: center;
     margin-left: 10%;
     margin-bottom:10%;
-    margin-top:15%;
+    margin-top:10%;
     font-family: 'Quicksand', sans-serif;
 }
 #desafios-sugerencia{
@@ -34,4 +35,8 @@
     line-height: 21px;
     color: #373A3C;
     font-family: 'Quicksand', sans-serif;
+    margin-bottom: 5%;
+}
+#desafios-select{
+    padding: 0;
 }
