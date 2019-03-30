@@ -17,7 +17,7 @@ class Navbar extends Component{
 
                     <Link to="/todo"><Button id="button-tareas"><Image id="navbar-tareas" src={tareas} /><p className="txt-btn">Tareas</p></Button></Link>
                     
-                    <Link to="/premio"><Button id="button-premio"><Image id="navbar-premio" src={premio} /><p className="txt-btn">Premios</p></Button></Link>
+                    <Link to="/premios"><Button id="button-premio"><Image id="navbar-premio" src={premio} /><p className="txt-btn">Premios</p></Button></Link>
                     
                    
                     

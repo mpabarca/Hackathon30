@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './ToDoList.css';
 import firebase from '../components-firebase/Fire';
-import { Container, Col, Row} from 'react-bootstrap';
+import { Container, Col, Row, Image} from 'react-bootstrap';
 import oniprofile from '../img/profile.png';
 import stevenprofile from '../img/profile2.png';
 import Navbar from '../component-navbar/Navbar';
@@ -57,13 +57,15 @@ class ToDoList extends Component {
              <div className="box-img-profile">
                  <div className="profile-img">
                      <h6>Steve</h6>
-                     <img src={stevenprofile}/>
+                     <div className="parent1"><div id="double-border1"/><Image id="login-steven1" src={stevenprofile} roundedCircle /></div>
+                     
                      <p>10 Pts</p>
                     
                  </div>
                  <div className="profile-img">
                  <h6>Conie</h6>
-                 <img src={oniprofile}/>
+                 <div className="parent1"><div id="double-border1"/><Image id="login-steven1" src={oniprofile} roundedCircle /></div>
+                
                  <p>10 pts</p>
 
                  </div>
