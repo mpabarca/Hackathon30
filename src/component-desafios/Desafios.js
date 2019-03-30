@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './desafios.css';
+import { Container, Row, Button, Col, Image} from 'react-bootstrap';
 
 class Desafios extends Component{
 
@@ -7,6 +8,7 @@ class Desafios extends Component{
         return(
             <Container>
                 
+
             </Container>
 
         )
