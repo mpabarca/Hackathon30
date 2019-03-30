@@ -5,15 +5,18 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import * as bs from 'bootstrap/dist/css/bootstrap.css';
 import Edit from './components-todolist/components/Edit';
 import Create from './components-todolist/components/Create';
 import Show from './components-todolist/components/Show';
 import ToDoList from './components-todolist/ToDoList'
+import Login from './component-login/Login'
 
 ReactDOM.render(
 <Router>
       <div>
         <Route exact path='/' component={App} />
+        <Route exact path='/login' component={Login} />
         <Route exact path='/todo' component={ToDoList} />
         <Route path='/edit/:id' component={Edit} />
         <Route path='/create' component={Create} />

@@ -3,6 +3,7 @@ import firebase from '../../components-firebase/Fire';
 import { Link } from 'react-router-dom';
 import { Container, Col, Row} from 'react-bootstrap';
 import './Create.css';
+import Navbar from '../../component-navbar/Navbar';
 
 class Create extends Component {
 
@@ -49,14 +50,14 @@ class Create extends Component {
       <div>
         <Container>
           <Row>
-              <Col>
+              <Col xs={12} md={12} lg={12} >
               <h3 className="text-center mt-2">
               Crea una Tarea
             </h3>
             </Col>
             
         
-          <Col>
+          <Col xs={12} md={12} lg={12} >
             
             <form onSubmit={this.onSubmit}>
               <div class="form-group">
@@ -77,6 +78,7 @@ class Create extends Component {
           </Row>
           <h4><Link to="/todo" class="btn btn-primary">Volver a las Tareas</Link></h4>
         </Container>
+        <Navbar />
       </div>
     );
   }

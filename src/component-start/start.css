@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:500,700');
+
+#start{
+    height: 100vh;
+}
+#start-container{
+    padding: 0%;
+    margin: 30% 12% 30%;
+    width: 282px;
+    height: 100vh;
+}
+#start-login{
+    background-color:#8C8CE6;
+    border:none;
+    border-radius: 4px;
+    width: 200px;
+}
+#start-team{
+    background-color: #fff;
+    border-color: gray;
+    border-radius: 4px;
+    color: #373A3C;
+    border: 1px solid #CCCCCC;
+    width: 200px;
+}
+
+.img-start{
+    display: flex;
+    flex-direction:column;
+justify-content:space-around;
+align-items: center;
+}
+
+.black {
+    color: #373A3C;
+}
+
+.partners{
+    font-weight: 500;
+}

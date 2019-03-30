@@ -5,6 +5,7 @@ import firebase from '../components-firebase/Fire';
 import { Container, Col, Row} from 'react-bootstrap';
 import oniprofile from '../img/profile.png';
 import stevenprofile from '../img/profile2.png';
+import Navbar from '../component-navbar/Navbar';
 
 class ToDoList extends Component {
   constructor(props) {
@@ -100,6 +101,7 @@ class ToDoList extends Component {
 
           </Row>
          </Container> 
+         <Navbar />
 
 
  </div>
