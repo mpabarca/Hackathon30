@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './premios.css';
 import { Container, Row, Image, Button} from 'react-bootstrap';
 import connie from '../img/connie.png';
+import Navbar from '../component-navbar/Navbar';
 
 class Premios extends Component{
 
@@ -23,8 +24,9 @@ class Premios extends Component{
                 <br></br>
                 <Row ><Button id="login-invitar" variant="primary">Hoy tú invitas</Button></Row>
                 <br></br>
-
+                <Navbar />
             </Container>
+            
         )
     }
 }

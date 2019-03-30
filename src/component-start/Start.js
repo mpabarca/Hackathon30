@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import './start.css';
 import logo from '../img/logo.png';
-import { Container, Row, Button} from 'react-bootstrap';
+import { Container, Col, Row, Button} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 class Start extends Component{
 
@@ -9,12 +10,27 @@ class Start extends Component{
         return(
             <div id="start">
                 <Container id="start-container">
-                    <Row ><img id="start-logo" src={logo}/></Row>
-                    <Row><h3>Partners</h3></Row>
-                    <Row><h6>¡Seamos un equipo!</h6></Row>
+                    <Row>
+                        <Col xs={12} md={12} lg={12} className="img-start">
+                        <img id="start-logo" src={logo}/>
+                        <h1 className="text-center mt-4 partners">Partners</h1>
+                        </Col>
+               
+                    <Col xs={12} md={12} lg={12} className="img-start"><h6 className="black">¡Comencemos por casa!</h6>
+                    </Col>
+                    </Row>
+
                     <Container id="start-button">
-                        <Row ><Button id="start-login" variant="primary">Inicia Sesión</Button></Row>
-                        <Row ><Button id="start-team" variant="secondary">Crear nuevo equipo</Button></Row>
+                        <Row >
+                           <Col xs={12} md={12} lg={12} className="img-start">
+                            <Link to="/Login">
+                            <Button id="start-login" className="mb-3 mt-5" variant="primary">Inicia Sesión</Button>
+                            </Link>
+
+                            <Button id="start-team" variant="secondary">Crear nuevo equipo</Button>
+                            </Col>
+                            </Row>
+                      
                     </Container>
                 </Container>
             </div>
