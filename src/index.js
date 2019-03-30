@@ -12,6 +12,7 @@ import Show from './components-todolist/components/Show';
 import ToDoList from './components-todolist/ToDoList'
 import Login from './component-login/Login'
 import Premios from './component-premios/Premios';
+import Desafios from './component-desafios/Desafios';
 
 
 ReactDOM.render(
@@ -19,6 +20,7 @@ ReactDOM.render(
       <div>
         <Route exact path='/' component={App} />
         <Route exact path='/premios' component={Premios} />
+        <Route exact path='/desafios' component={Desafios} />
         <Route exact path='/login' component={Login} />
         <Route exact path='/todo' component={ToDoList} />
         <Route path='/edit/:id' component={Edit} />

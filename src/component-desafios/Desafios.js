@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import './desafios.css';
 import { Container, Row, Button, Col, Image, Form} from 'react-bootstrap';
+import Navbar from '../component-navbar/Navbar';
+
 
 class Desafios extends Component{
 
@@ -68,7 +70,7 @@ class Desafios extends Component{
                     </Row>
                     <br></br>
                 </Container>
-
+                <Navbar />
             </Container>
 
         )
