@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+.header-todo{
+ width: 100%;
+ height: 50px;
+ margin: 0 auto;
+ -webkit-box-shadow: 0px 6px 13px -4px rgba(87,85,87,0.57);
+ -moz-box-shadow: 0px 6px 13px -4px rgba(87,85,87,0.57);
+ box-shadow: 0px 6px 13px -4px rgba(87,85,87,0.57);
+ font-family: 'Quicksand', sans-serif;      
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Quicksand', sans-serif;  
+
+color: #8C8CE6;  /* fallback for old browsers */
+color: -webkit-linear-gradient(to right, #FF61D3, #00C2FF);  /* Chrome 10-25, Safari 5.1-6 */
+color: linear-gradient(to right, #FF61D3, #00C2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.tareas{
+    margin-top: 30px;
+}
+.box-img-profile{
+    display:flex;
+    width: 100%;
+    height: 150px;
+    margin-top: 50px;
+    -webkit-box-shadow: 0px 0px 23px -4px rgba(87,85,87,0.76);
+-moz-box-shadow: 0px 0px 23px -4px rgba(87,85,87,0.76);
+box-shadow: 0px 0px 23px -4px rgba(87,85,87,0.76);
+flex-direction:row;
+justify-content:space-around;
+align-items: center;
+
+}
+.profile-img{
+    align-self: center;
+    text-align: center;
+}
+.profile-img img{
+    width: 100px;
+    height: auto;
+  
+}
+
+.addWork{
+display:flex;
+justify-content:center;
+align-items: center;
+ 
+}
+.icon-add{
+    font-size: 60px;
+    color:#8C8CE6;
+}
