@@ -80,7 +80,6 @@ class ToDoList extends Component {
              <li class="list-group-item d-flex justify-content-between align-items-center">
              <input type="checkbox" aria-label="Checkbox for following text input"/> 
              <Link to={`/show/${board.key}`}>{board.title}</Link> 
-            
              <span class="badge badge-primary badge-pill">{board.author}</span>
              </li>
              </ul>
