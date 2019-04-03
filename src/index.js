@@ -16,7 +16,7 @@ import Desafios from './component-desafios/Desafios';
 
 
 ReactDOM.render(
-<Router>
+<Router basename={process.env.PUBLIC_URL}>
       <div>
         <Route exact path='/' component={App} />
         <Route exact path='/premios' component={Premios} />
